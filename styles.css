@@ -4,6 +4,7 @@ p, li, input, textarea {
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+  font-size: 1.2em;
 }
 ul {
     margin-top: 15px;
@@ -112,6 +113,10 @@ a, a:hover, a:visited {
     margin: auto;
     color: white;
     padding: 25px;
+    text-align: center;
+}
+ul {
+    list-style-position: inside;
 }
 .picture img {
     width: 100%;
@@ -154,6 +159,7 @@ button {
     border: 1px solid #34b8e6;
     border-radius: 5px;
     color: white;
+    font-size: 1.2em;
 }
 .page-footer {
     text-align: center;
