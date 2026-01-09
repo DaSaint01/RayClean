@@ -48,7 +48,7 @@ a, a:hover, a:visited {
     text-decoration: none;
 }
 .header {
-    background-image: url("/assets/Sunrise_cropped.jpg");
+    background-image: url("./assets/Sunrise_cropped.jpg");
     background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
