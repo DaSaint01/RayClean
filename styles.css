@@ -71,15 +71,21 @@ a, a:hover, a:visited {
 .toplinegrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-content: center;
+    /* align-content: center; */
 }
 .topitem {
-    /* padding: 15px; */
-    color: #34b8e6
+    color: #34b8e6;
+    text-align: center;
+    width: 100%;
+}
+.topitem img {
+    text-align: center;
+    margin: auto;
+    height: 30px;
 }
 .highlight {
     font-size: 1.4em;
+    margin: 8px;
 }
 .highlight a {
     color: #34b8e6;
