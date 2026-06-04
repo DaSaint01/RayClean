@@ -1,16 +1,19 @@
 
 p, li, input, textarea {
-  font-family: "Forum", serif;
+  font-family: "Montserrat", serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
   font-size: 1.2em;
 }
+b {
+    font-weight: 500;
+    font-style: oblique;
+}
 ul {
     margin-top: 15px;
     margin-bottom: 15px;
 }
-
 h1 {
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
@@ -18,7 +21,7 @@ h1 {
   font-weight: 500;
   font-style: normal;
   padding-top: 15px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 h2 {
   font-family: "Forum", serif;
@@ -26,14 +29,14 @@ h2 {
   font-size: 1.6em;
   font-weight: 500;
   font-style: normal;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 h3 {
   font-family: "Forum", serif;
   font-optical-sizing: auto;
   font-size: 2em;
   font-weight: 500;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 * {
@@ -84,7 +87,7 @@ a, a:hover, a:visited {
     height: 30px;
 }
 .highlight {
-    font-size: 1.4em;
+    font-size: 1.1em;
     margin: 8px;
 }
 .highlight a {
@@ -121,6 +124,7 @@ a, a:hover, a:visited {
     padding: 25px;
     text-align: center;
 }
+
 ul {
     list-style-position: inside;
 }
@@ -171,7 +175,18 @@ button {
     text-align: center;
     background-color: #34b8e6;
     color: white;
-    padding: 15px;
+}
+.footergrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footergriditem {
+    color: white;
+    padding-bottom: 35px;
+}
+.copyright {
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -185,5 +200,10 @@ button {
 .toplinegrid {
     display: grid;
     grid-template-columns: 1fr;
+}
+.footergrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 35px;
 }
 }
