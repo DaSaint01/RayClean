@@ -171,10 +171,18 @@ button {
     color: white;
     font-size: 1.2em;
 }
+.terug {
+    width: auto;
+}
 .page-footer {
     text-align: center;
     background-color: #34b8e6;
     color: white;
+}
+.fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .footergrid {
     display: grid;
